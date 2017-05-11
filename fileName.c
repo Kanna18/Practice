@@ -11,10 +11,11 @@ printf("Max Value %E\n",FLT_MAX);
 printf("Precision Value %d\n",FLT_DIG);
 
 
-int a,b,c;
-a=10;b=10;
+int a,b,c,d;
+a=20;b=10;
 c=a+b;
-printf("Variable c value is c=%d\n",c);
+d=a-b;
+printf("Variable c value is c=%d\n d=%d",c,d);
 
 }
 
